@@ -1,0 +1,42 @@
+
+
+.screen {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+
+    background-color: rgba(19, 27, 46);
+}
+
+.separator {
+    display: flex;
+    flex-grow: 1;
+}
+
+.main-window {
+    display: flex;
+    flex-grow: 4;
+    flex-direction: column;
+}
+
+.main-title {
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+    color: rgb(53, 178, 234);
+    font-size: 24px;
+}
+
+.main-table-wrapper {
+    display: flex;
+    padding: 0 25px 25px 25px;
+    overflow-y: scroll;
+    
+}
+
+.main-table-wrapper::-webkit-scrollbar {
+    display: none;
+}
