@@ -32,11 +32,16 @@
 
 .main-table-wrapper {
     display: flex;
-    padding: 0 25px 25px 25px;
+    padding: 0 25px 0 25px;
     overflow-y: scroll;
     
 }
 
 .main-table-wrapper::-webkit-scrollbar {
     display: none;
+}
+
+#info {
+    color: rgb(121, 135, 155);
+    padding: 10px;
 }
